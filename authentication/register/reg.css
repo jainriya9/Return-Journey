@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/authentication/registerBg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+
+.register-container {
+    background-color: #ffffff5a;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.194);
+    width: 300px;
+    margin: 0;
+}
+
+.register-container img {
+    width: 200px; 
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="tel"],
+        
+.register-container input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+}
+
+.register-container button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: #ff40008a;
+        color: #fff;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+}
+
+.register-container button:hover {
+    background-color: #b33000;
+}
+
+.register-container p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.link{
+    font-weight:900;
+    font-family: cursive;
+}
+
+
+.button-link {
+    display: inline-block;
+    padding: 10px 130px;
+    background-color: #007bff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    
+}
